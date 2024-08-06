@@ -1,0 +1,126 @@
+.App {
+  width: 100%;
+  height: max-content;
+  display: flex;
+
+  overflow: hidden;
+}
+
+.App::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 525px) {
+  .App {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+  }
+}
+
+/* src/App.css */
+body {
+  background-color: black;
+  color: #fff;
+  font-family: "poppins", sans-serif;
+}
+
+.sidebar {
+  width: 60px;
+  height: 100vh;
+  background-color: #2e2e4e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+}
+
+.sidebar .nav-link {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-link:hover {
+  color: #00aaff;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.header {
+  background-color: #2e2e4e;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .sidebar-toggle-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.header .search-bar {
+  flex-grow: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header .search-bar input {
+  background-color: #1a1a2e;
+  border: none;
+  color: #fff;
+}
+
+.header .header-icons i,
+.header .header-icons img {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.card {
+  background-color: rgba(24, 24, 24, 0.992);
+  border: none;
+  color: #fff;
+}
+
+.card-title,
+.card-text {
+  color: #fff;
+}
+
+.table {
+  color: #fff;
+}
+
+.table thead th {
+  border-bottom: 2px solid #4b4b6e;
+}
+
+.table tbody tr td {
+  border-top: 1px solid #4b4b6e;
+}
+
+.status-delivered {
+  color: green;
+}
+
+.status-pending {
+  color: orange;
+}
+
+.status-cancelled {
+  color: red;
+}
+
+.progress-bar {
+  background-color: #00aaff;
+
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}

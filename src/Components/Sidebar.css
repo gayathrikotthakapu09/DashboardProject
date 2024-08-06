@@ -1,0 +1,24 @@
+.sidebar-container {
+    width: 60px !important;
+    height: 100% !important;
+    background-color: rgba(24, 24, 24, 0.992);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .sidebar-item1 {
+    color: #3572ef;
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  
+  .sidebar-item {
+    font-size: 20px;
+  }
+  
+  
+  .logout{
+      margin-top:900px;
+  }
